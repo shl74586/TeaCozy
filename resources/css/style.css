@@ -81,13 +81,38 @@ nav ul span a {
 /*Container 2 TEA OF THE MONTH*/
 
 .container-2 {
-  border: thin solid blue;
+  border: thin solid black;
   width: 1000px;
+  margin-top: 40px;
   margin-left: 210px;
 }
 
+.month h2 {
+  margin-bottom: 20px;
+}
+
+.month h4 {
+  margin-top: 2px;
+}
+
+/*Tea of the Month Pictures*/
+
 .pictures img {
-  border: thin solid red;
   height: 200px;
   width: 300px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic1-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic2-text {
+  display: flex;
+  justify-content: space-between;
 }
