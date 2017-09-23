@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-/* Header Rules */
+/* Header Rules --- COME BACK AND FIX AFTER RESIZING PICS*/
 
 header {
   display: flex;
@@ -15,20 +15,50 @@ header {
   width: 99%;
   height: 69px;
   background-color: black;
-  border: 1px solid seashell;
-  position: fixed;
+  border-bottom: 1px solid white;
+  margin-top: 0px;
+  /*position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  overflow: scroll;*/
 }
 
 .logo img {
-  display: flex;
-  justify-content: flex-start;
   height: 50px;
   margin-left: 10px;
   margin-top: 10px;
+}
+
+header nav {
+  border: thin solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  border: thin solid red;
 
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
+nav ul span {
+  border: thin solid green;
+}
+
+nav ul span a {
+  color: seashell;
+}
+
+/*Container 2 TEA OF THE MONTH*/
+
+.container-2 {
+  border: thin solid blue;
+  width: 1000px;
+  margin-left: 210px;
+}
+
+.pictures img {
+  border: thin solid red;
+  height: 200px;
+  width: 300px;
 }
