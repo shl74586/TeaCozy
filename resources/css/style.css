@@ -116,3 +116,46 @@ nav ul span a {
   display: flex;
   justify-content: space-between;
 }
+
+/*Locations*/
+
+.container-3 {
+  border: thin solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin: 0px 50px;
+}
+
+#textbox1 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-right: 20px;
+  line-height: 37px;
+}
+
+#textbox2 {
+  width: 300px;
+  background-color: black;
+  line-height: 37px;
+  margin: 0px 20px
+}
+
+#textbox3 {
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  line-height: 37px;
+}
+
+#text {
+  opacity: 1;
+}
+
+.boxes {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
