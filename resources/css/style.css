@@ -29,19 +29,12 @@ header {
   margin-top: 10px;
 }
 
-header nav {
-  border: thin solid blue;
+nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-nav ul {
-  border: thin solid red;
-
-}
-
-nav ul span {
-  border: thin solid green;
+  position: relative;
+  right: 50px;
 }
 
 nav ul span a {
@@ -100,6 +93,17 @@ nav ul span a {
 .pictures img {
   height: 200px;
   width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pictures2 img {
+  height: 200px;
+  width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  bottom: 20px;
 }
 
 .pictures {
@@ -107,14 +111,27 @@ nav ul span a {
   justify-content: space-around;
 }
 
+.pictures2 {
+  display: flex;
+  justify-content: center;
+}
+
 .pic1-text {
   display: flex;
   justify-content: space-between;
+  margin: 0px 80px;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
 }
 
 .pic2-text {
   display: flex;
   justify-content: space-between;
+  margin: 0px 240px;
+  position: relative;
+  left: 10px;
+  bottom: 30px;
 }
 
 /*Locations*/
@@ -158,4 +175,26 @@ nav ul span a {
   margin-top: 15px;
   display: flex;
   justify-content: center;
+}
+
+/*Footer*/
+
+.contact {
+  padding: 0px;
+  position: relative;
+  bottom: 20px;
+}
+
+.contact2 {
+  position: relative;
+  top: 20px;
+}
+
+.copyright {
+  text-align: left;
+  width: 20%;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 10px;
 }
